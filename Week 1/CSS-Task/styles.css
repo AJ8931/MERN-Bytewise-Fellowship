@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'aptos', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1560px;
+}
+.head-col-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 6px;
+
+}
+.logo{
+    width: 10rem;
+}
+.head-col-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.head-col-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-bottom: #000 1.5px solid;
+    padding: 0 3rem;
+}
+.head-col-2 ul li{
+    padding: 0rem 3rem;
+    border-right: #000 1.5px solid;
+}
+.head-col-2 ul li:last-child{
+    border-right: none;
+}
+.head-col-2 ul li a{
+    color: #000;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1560px;
+    padding: 0rem 3rem;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    width: 100%;
+}
+.hs-col-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    /* padding: 0rem 3rem ; */
+    max-width: 580px;
+    gap: 1.5rem;
+}
+.hero-section h1{
+    width: 100%;
+    max-width: 300px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.mom-text{
+    
+    font-size: 2.8rem;
+}
+.heading-1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #000;
+}
+.hero-section p{
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 1.3;
+    /* word-spacing: 3px; */
+    font-weight: 600;
+    padding-right: 60px;
+
+    color: #424949;
+}
+
+.hs-col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 520px;
+}
+.hero-section img{
+    width: 100%;
+    height: auto;
+}
+
+
