@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Datatable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap5 datatable -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <h2 class="mb-4">Bootstrap Datatable</h2>
+        <table id="example" class="table table-bordered " style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Office</th>
+                    <th>Age</th>
+                    <th>Start date</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Software Engineer</td>
+                    <td>Boston</td>
+                    <td>35</td>
+                    <td>2015-09-15</td>
+                    <td>$120,000</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Data Analyst</td>
+                    <td>Chicago</td>
+                    <td>29</td>
+                    <td>2017-11-23</td>
+                    <td>$95,000</td>
+                </tr>
+                <tr>
+                    <td>Sam Wilson</td>
+                    <td>Project Manager</td>
+                    <td>New York</td>
+                    <td>45</td>
+                    <td>2010-04-01</td>
+                    <td>$150,000</td>
+                </tr>
+                <tr>
+                    <td>Nina Brown</td>
+                    <td>Graphic Designer</td>
+                    <td>San Francisco</td>
+                    <td>32</td>
+                    <td>2018-06-12</td>
+                    <td>$80,000</td>
+                </tr>
+                <tr>
+                    <td>David Lee</td>
+                    <td>UX Designer</td>
+                    <td>Seattle</td>
+                    <td>41</td>
+                    <td>2013-07-21</td>
+                    <td>$110,000</td>
+                </tr>
+                <tr>
+                    <td>Linda Johnson</td>
+                    <td>HR Manager</td>
+                    <td>Los Angeles</td>
+                    <td>39</td>
+                    <td>2014-01-03</td>
+                    <td>$105,000</td>
+                </tr>
+                <tr>
+                    <td>Michael Carter</td>
+                    <td>DevOps Engineer</td>
+                    <td>Austin</td>
+                    <td>28</td>
+                    <td>2019-08-15</td>
+                    <td>$130,000</td>
+                </tr>
+                <tr>
+                    <td>Jessica Green</td>
+                    <td>Marketing Specialist</td>
+                    <td>San Diego</td>
+                    <td>26</td>
+                    <td>2020-02-10</td>
+                    <td>$75,000</td>
+                </tr>
+                <tr>
+                    <td>Tom Harris</td>
+                    <td>IT Support</td>
+                    <td>Denver</td>
+                    <td>34</td>
+                    <td>2016-03-05</td>
+                    <td>$65,000</td>
+                </tr>
+                <tr>
+                    <td>Emma White</td>
+                    <td>Business Analyst</td>
+                    <td>Miami</td>
+                    <td>37</td>
+                    <td>2012-12-20</td>
+                    <td>$90,000</td>
+                </tr>
+                <tr>
+                    <td>Robert Hall</td>
+                    <td>Software Tester</td>
+                    <td>Las Vegas</td>
+                    <td>31</td>
+                    <td>2018-11-15</td>
+                    <td>$85,000</td>
+                </tr>
+                <tr>
+                    <td>Susan Lewis</td>
+                    <td>Product Manager</td>
+                    <td>Portland</td>
+                    <td>46</td>
+                    <td>2009-09-05</td>
+                    <td>$145,000</td>
+                </tr>
+                <tr>
+                    <td>Kevin Walker</td>
+                    <td>Full Stack Developer</td>
+                    <td>Atlanta</td>
+                    <td>27</td>
+                    <td>2021-05-30</td>
+                    <td>$100,000</td>
+                </tr>
+                <tr>
+                    <td>Mary Allen</td>
+                    <td>Accountant</td>
+                    <td>Orlando</td>
+                    <td>42</td>
+                    <td>2011-01-12</td>
+                    <td>$110,000</td>
+                </tr>
+                <tr>
+                    <td>James Wright</td>
+                    <td>Network Engineer</td>
+                    <td>Phoenix</td>
+                    <td>38</td>
+                    <td>2013-10-02</td>
+                    <td>$95,000</td>
+                </tr>
+                <tr>
+                    <td>Laura King</td>
+                    <td>Technical Writer</td>
+                    <td>Houston</td>
+                    <td>36</td>
+                    <td>2015-08-07</td>
+                    <td>$70,000</td>
+                </tr>
+                <tr>
+                    <td>Peter Young</td>
+                    <td>QA Engineer</td>
+                    <td>Philadelphia</td>
+                    <td>33</td>
+                    <td>2017-04-19</td>
+                    <td>$85,000</td>
+                </tr>
+                <tr>
+                    <td>Rachel Scott</td>
+                    <td>Operations Manager</td>
+                    <td>Dallas</td>
+                    <td>44</td>
+                    <td>2010-11-11</td>
+                    <td>$135,000</td>
+                </tr>
+                <tr>
+                    <td>Henry Edwards</td>
+                    <td>Systems Architect</td>
+                    <td>Boston</td>
+                    <td>50</td>
+                    <td>2008-06-30</td>
+                    <td>$160,000</td>
+                </tr>
+                <tr>
+                    <td>Chloe Evans</td>
+                    <td>Cloud Engineer</td>
+                    <td>Chicago</td>
+                    <td>30</td>
+                    <td>2021-02-12</td>
+                    <td>$120,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
+</body>
+
+</html>
