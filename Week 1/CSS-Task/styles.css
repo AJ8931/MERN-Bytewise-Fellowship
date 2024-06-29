@@ -7,6 +7,15 @@
     list-style: none;
     text-transform: uppercase;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -135,7 +144,7 @@ footer{
     height: fit-content;
     max-width: 1560px;
     padding: 0rem 3rem;
-    border-bottom: #000 10px solid;
+    border-bottom: #000 6px solid;
 }
 .foot-col-1{
     display: flex;
