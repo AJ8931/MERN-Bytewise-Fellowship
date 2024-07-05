@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../assets/fonts/ClashDisplay.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-bold';
+    src: url('../assets/fonts/ClashDisplay-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-semibold';
+    src: url('../assets/fonts/ClashDisplay-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-medium';
+    src: url('../assets/fonts/ClashDisplay-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'ClashDisplay';
+}
+.ClashDisplay-bold{
+    font-family: 'ClashDisplay-bold' !important;
+
+}
+.ClashDisplay-semibold{
+    font-family: 'ClashDisplay-Semibold' !important ;
+}
+.ClashDisplay-medium{
+    font-family: 'ClashDisplay-medium' !important ;
+}
+.max-w-912 {
+    max-width: 912px;
+}
+.rounded-middle {
+    border-radius: 30px;
+}
+.white-circle {
+    display: inline-block;
+    width: 10px;  /* Adjust the size as needed */
+    height: 10px; /* Adjust the size as needed */
+    background-color: #fff;
+    border-radius: 50%;
+}
