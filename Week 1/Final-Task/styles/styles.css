@@ -1,3 +1,9 @@
+body{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+ background: #EFEFEF;
+}
 @font-face {
     font-family: 'ClashDisplay';
     src: url('../assets/fonts/ClashDisplay.otf') format('opentype');
@@ -26,12 +32,15 @@
 body {
     font-family: 'ClashDisplay';
 }
+.bg-transparent{
+    background: transparent;
+}
 .ClashDisplay-bold{
     font-family: 'ClashDisplay-bold' !important;
 
 }
 .ClashDisplay-semibold{
-    font-family: 'ClashDisplay-Semibold' !important ;
+    font-family: 'ClashDisplay-semibold' !important ;
 }
 .ClashDisplay-medium{
     font-family: 'ClashDisplay-medium' !important ;
@@ -48,4 +57,116 @@ body {
     height: 10px; /* Adjust the size as needed */
     background-color: #fff;
     border-radius: 50%;
+}
+.margin-bottom-[--var]{
+    margin-bottom: var(--var);
+}
+.gap-lg-6{
+    gap: 100px;
+}
+.display-bigger{
+    font-size: 180px;
+}
+.border-left-1 {
+    border-left: 1px solid #000; /* Adjust the color and width as needed */
+    padding-left: 15px; /* Optional: to add some space between the border and the content */
+}
+.bigger-padding{
+    padding: 96px 0px;
+}
+.max-width-600px{
+    width: 100%;
+    max-width: 400px;
+}
+.max-w-322px{
+    width: 100%;
+    max-width: 322px;
+}
+/* .max-width-490px{
+    max-width: 490px;
+} */
+.background-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    rotate: -15deg;
+    width: 60%;
+    max-width:700px;
+    min-width: 350px;
+    border-radius: 34px;
+    z-index: -1; /* Ensure the image stays behind other content */
+}
+
+
+
+/* Accordion */
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button::before {
+    content: '\2715';
+    /* Unicode for 'X' symbol */
+    display: inline-block;
+    margin-left: auto;
+    transition: rotate 0.2s ease-in-out;
+}
+
+.accordion-button.collapsed::before {
+    rotate: 45deg;
+}
+
+.accordion-button {
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+    transition: none;
+    width: fit-content !important;
+}
+
+.accordion-button:hover,
+.accordion-button:focus {
+    color: inherit;
+    background-color: inherit;
+}
+
+.borderLeft{
+    border-left: 1px solid grey;
+    }
+    .borderLeftParent{
+    border-left: none;
+    }
+
+@media (max-width: 860px) {
+    .display-bigger {
+        font-size: 140px;
+    }
+    .justifycenter{
+        justify-content: center !important;
+    }
+}
+@media (max-width: 768px) {
+    .display-bigger {
+        font-size: 120px;
+    }
+    .borderLeftParent{
+    border-left: 1px solid grey;
+    }
+    
+    .borderLeft{
+        border-left:none;
+    }
+    
+    .bigger-padding{
+       padding: 60px 0px;
+    }
+}
+
+@media (max-width: 530px) {
+    .display-bigger {
+        font-size: 80px;
+    }
 }
