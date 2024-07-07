@@ -3,6 +3,7 @@ body{
  padding: 0%;
  box-sizing: border-box;
  background: #EFEFEF;
+ font-family: 'ClashDisplay';
 }
 @font-face {
     font-family: 'ClashDisplay';
@@ -28,9 +29,8 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-
-body {
-    font-family: 'ClashDisplay';
+.navbar-toggler{
+    border: none !important;
 }
 .bg-transparent{
     background: transparent;
@@ -66,6 +66,15 @@ body {
 }
 .display-bigger{
     font-size: 180px;
+}
+.font-size-44px{
+    font-size: 44px;
+}
+.w-fit{
+    width: fit-content !important;
+}
+.max-wdith-1280px{
+    max-width:1280px
 }
 .border-left-1 {
     border-left: 1px solid #000; /* Adjust the color and width as needed */
