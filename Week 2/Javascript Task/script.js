@@ -142,5 +142,11 @@ const createTaskElement = (todo) => {
   return taskItem;
 };
 
+const clearAll = () => {
+  localStorage.clear();
+  todos = [];
+  viewData();
+};
+
 // Initial view: Display all tasks from localStorage
 viewData();
