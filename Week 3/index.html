@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally v2</title>
+    <link rel="icon" href="T.ico">
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="text-light bg-darkC">
+    <div class="w-100 d-flex justify-content-end align-items-end p-2">
+        <div class="dropdown ms-auto">
+            <i id="modeToggle" class="fas fa-cog" data-bs-toggle="dropdown" aria-expanded="false"></i>
+            <ul class="dropdown-menu">
+                <li>
+                    <button id="toggleLightMode" class="dropdown-item cursor-pointer">
+                        <i class="fas fa-sun mx-2"></i> Light Mode
+                    </button>
+                </li>
+                <li>
+                    <button id="toggleDarkMode" class="dropdown-item cursor-pointer">
+                        <i class="fas fa-moon mx-2"></i> Dark Mode
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <main id="main" class="container dark-mode">
+        <div class="w-full d-flex justify-content-center align-items-center">
+            <h1 class="fw-semibold display-3">Tally<sub class="fs-4 fw-semibold">v2</sub></h1>
+        </div>
+        <div class="text-center fs-14 mt-6">
+            <p>Your favourite character counter, with dark mode!</p>
+            <p>tally word counter is a free online tool to count the number of characters, words and paragraphs in your
+                text. Tally can also count the number of digits, spaces and special characters. Make sure you have the
+                required number of words foryour essay or articles by counting them instantly.</p>
+            <p>Also, Tally character has the other themes in the settings, so check them out if you want a different
+                look. please bookmark this page to use Tally whenever you need.</p>
+        </div>
+        <div class="w-100 d-flex flex-column justify-content-center align-items-center mt-5 gap-5">
+            <textarea id="input" class="w-100 rounded bg-grey text-light p-3 border-0 resize-none" rows="10"
+                placeholder="The quick brown fox jumps over the lazy dog..."></textarea>
+            <div id="metrics" class="w-100 p-4 rounded bg-grey">
+                <div class="w-100 d-flex justify-content-around align-items-center flex-container">
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6 class="h6">Characters</h6>
+                        <h6 id="characters">-</h6>
+                    </div>
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6>Words</h6>
+                        <h6 id="words">-</h6>
+                    </div>
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6>Sentences</h6>
+                        <h6 id="sentences">-</h6>
+                    </div>
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6>Paragraphs</h6>
+                        <h6 id="paragraphs">-</h6>
+                    </div>
+                </div>
+                <div class="w-100 d-flex justify-content-around align-items-center flex-container">
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6>Spaces</h6>
+                        <h6 id="spaces">-</h6>
+                    </div>
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6>Letters</h6>
+                        <h6 id="letters">-</h6>
+                    </div>
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6>Digits</h6>
+                        <h6 id="digits">-</h6>
+                    </div>
+                    <div class="w-150 d-flex flex-column gap-1 justify-content-center align-items-center">
+                        <h6>Special Characters</h6>
+                        <h6 id="special-characters">-</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- External JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

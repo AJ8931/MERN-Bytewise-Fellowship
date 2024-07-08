@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg-darkC{
+    background-color: #161616;
+}
+.fs-12{
+    font-size: 14px;
+}
+.mt-6{
+    margin-top: 6rem ;
+}
+.bg-grey{
+    background-color: #212222;
+    color: #f0f0f0 !important;
+}
+.bg-light-grey {
+    background-color: #cfdee6; /* Light grey */
+    color: #212222 !important;
+}
+.resize-none{
+    resize: none;
+}
+.w-150{
+    width: 150px;
+}
+.light-mode {
+    background-color: #f0f0f0;
+    color: #161616;
+}
+.dark-mode {
+    background-color: #161616;
+    color: #f0f0f0;
+}
+.dropdown-item {
+    color: inherit; /* Ensures dropdown items inherit text color */
+}
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-wrap: wrap;
+        }
+    }
