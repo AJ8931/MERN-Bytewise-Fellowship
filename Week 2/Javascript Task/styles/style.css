@@ -1,0 +1,74 @@
+
+body {
+    background: linear-gradient(to right, #F48220, #F15B22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 6rem 0rem;
+    margin: 0;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.btn-clear {
+    background-color: #FFA500;
+    border: none;
+}
+
+.btn-clear:hover {
+    background-color: #FF6347;
+}
+
+.task-input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link {
+    color: #FF6347;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #d9534f;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-size {
+    font-size: 18px;
+    /* Adjust the size as needed */
+}
+
+.scrolling {
+    max-height: 20rem;
+    overflow-y: scroll;
+    padding: 0rem 0.5rem;
+}
+
+.form-check-input-custom {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.w-4rem {
+    width: 4rem !important;
+}
