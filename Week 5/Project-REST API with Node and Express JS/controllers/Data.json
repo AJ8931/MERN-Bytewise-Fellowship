@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Start with Why",
+    "author": "Simon Sinek",
+    "year": 2009,
+    "genre": "Business",
+    "summary": "Explores how leaders can inspire cooperation, trust, and change by starting with a clear sense of why.",
+    "id": "ed6a5ae4-31cc-4c6b-88a7-21a2a5e6b84f"
+  },
+  {
+    "title": "Show Your Work!",
+    "author": "Austin Kleon",
+    "year": 2014,
+    "genre": "Self-help",
+    "summary": "Encourages readers to share their creative processes and build an audience by being open and generous.",
+    "id": "0b7e995e-2e7a-4532-93f4-755ae1d0a843"
+  },
+  {
+    "title": "Steal Like an Artist",
+    "author": "Austin Kleon",
+    "year": 2012,
+    "genre": "Self-help",
+    "summary": "Discusses how to embrace influence, remix ideas, and foster creativity by learning from others.",
+    "id": "3f2637c8-7320-4d37-8911-64cc1f3b7d78"
+  },
+  {
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "year": 2012,
+    "genre": "Self-help",
+    "summary": "Examines the science behind why habits exist and how they can be changed.",
+    "id": "66d5b7d7-0d3e-40cc-9b76-0a4b02149006"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": 2011,
+    "genre": "Psychology",
+    "summary": "Analyzes the dual systems of thought, fast and slow, that drive our decisions and behavior.",
+    "id": "d8c01db5-17dc-44fc-85cb-cf10c23cf307"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "year": 2011,
+    "genre": "History",
+    "summary": "Traces the history of humanity from the Stone Age to the modern age.",
+    "id": "c42b3ec8-1b26-4d0a-9954-c00700f8e26b"
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "year": 2018,
+    "genre": "Memoir",
+    "summary": "A memoir about a woman who grows up in a strict and abusive household in rural Idaho but eventually escapes to learn about the wider world through education.",
+    "id": "fe2be8d4-2db8-4f84-9314-0039a824c89e"
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "year": 2016,
+    "genre": "Self-help",
+    "summary": "Advocates for embracing life’s challenges and focusing on what truly matters.",
+    "id": "20393c7f-bdbd-4c2f-8c8d-4f6b3eaf040b"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": 2018,
+    "genre": "Self-help",
+    "summary": "Provides strategies for forming good habits, breaking bad ones, and mastering tiny behaviors that lead to remarkable results.",
+    "id": "6e7ec6db-bb9a-4e1a-92e4-83c177ec13b6"
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "year": 1989,
+    "genre": "Self-help",
+    "summary": "Presents a principle-centered approach for solving personal and professional problems.",
+    "id": "5ae8db87-5a3a-429e-aead-6c6ec154dcd7"
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "year": 1936,
+    "genre": "Self-help",
+    "summary": "Offers advice on how to improve interpersonal skills and influence others.",
+    "id": "4b0e01d4-604f-4ae3-b68a-49e1c8859c87"
+  },
+  {
+    "title": "Quiet",
+    "author": "Susan Cain",
+    "year": 2022,
+    "genre": "Psychology",
+    "summary": "Examines the value of introverts in a culture that celebrates extroversion.",
+    "id": "11fa6a3a-0e90-4664-8d56-000b58e68b73"
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "year": 2012,
+    "genre": "Business",
+    "summary": "Explains how startups can effectively manage and grow their business through continuous innovation.",
+    "id": "b28285d1-0fcb-4f9a-9ae1-8b4372b899e6"
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "year": 2018,
+    "genre": "Memoir",
+    "summary": "A memoir by the former First Lady of the United States, Michelle Obama, detailing her life from childhood through her time in the White House.",
+    "id": "be8c472e-96f3-47ea-9498-f89eb6df915e"
+  },
+  {
+    "title": "The Four Agreements",
+    "author": "Don Miguel Ruiz",
+    "year": 1997,
+    "genre": "Self-help",
+    "summary": "Reveals the source of self-limiting beliefs that rob us of joy and create needless suffering.",
+    "id": "c85a9b71-7aef-43b2-9bff-1673561c7aa4"
+  },
+  {
+    "title": "The Art of Seduction",
+    "author": "Robert Greene",
+    "year": 2002,
+    "genre": "Psychology",
+    "summary": "Explores the techniques and strategies of seduction, examining historical and contemporary examples.",
+    "id": "349ec4bb-978b-439d-887b-58fd34ee9060"
+  }
+]
