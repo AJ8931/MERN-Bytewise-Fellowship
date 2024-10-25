@@ -9,15 +9,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  server: {
-    proxy: {
-      // Proxies requests from /api to your Appwrite server
-      "/api": {
-        target: "https://cloud.appwrite.io", // Appwrite server
-        changeOrigin: true,
-        secure: true,
-        rewrite: (path) => path.replace(/^\/api/, ""), // Optional: Rewrite path if needed
-      },
-    },
-  },
 });
