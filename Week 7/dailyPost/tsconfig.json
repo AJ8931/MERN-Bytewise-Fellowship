@@ -9,6 +9,7 @@
     "strict": false, 
     "noEmit": false,
     "skipLibCheck": true,
+    "noEmitOnError": false,
     "paths": {
       "@/*": ["./src/*"]
     }
